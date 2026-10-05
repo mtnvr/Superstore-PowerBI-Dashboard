@@ -1,0 +1,73 @@
+{
+  "name": "Superstore Dark",
+  "dataColors": [
+    "#14B8A6",
+    "#F59E0B",
+    "#818CF8",
+    "#F43F5E",
+    "#38BDF8",
+    "#A3E635",
+    "#FB923C",
+    "#E879F9"
+  ],
+  "background": "#0F1F38",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#0D9488",
+  "bad": "#F43F5E",
+  "neutral": "#94A3B8",
+  "good": "#14B8A6",
+  "maximum": "#14B8A6",
+  "center": "#F59E0B",
+  "minimum": "#F43F5E",
+  "null": "#1E3A5F",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#162843" } }, "transparency": 0 }],
+        "border": [{ "color": { "solid": { "color": "#1E3A5F" } }, "show": true }],
+        "outspacePane": [{ "color": { "solid": { "color": "#0F1F38" } }, "transparency": 0 }],
+        "title": [{
+          "fontColor": { "solid": { "color": "#14B8A6" } },
+          "background": { "solid": { "color": "#162843" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold",
+          "alignment": "left"
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{ "fontSize": 24, "fontFamily": "Segoe UI Bold", "color": { "solid": { "color": "#14B8A6" } } }],
+        "label": [{ "fontSize": 10, "fontFamily": "Segoe UI", "color": { "solid": { "color": "#94A3B8" } } }],
+        "background": [{ "color": { "solid": { "color": "#162843" } }, "transparency": 0 }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#94A3B8" } }, "fontSize": 9 }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#94A3B8" } }, "fontSize": 9, "gridlineColor": { "solid": { "color": "#1E3A5F" } } }],
+        "dataLabels": [{ "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 9 }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#94A3B8" } }, "fontSize": 9 }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#94A3B8" } }, "fontSize": 9, "gridlineColor": { "solid": { "color": "#1E3A5F" } } }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "data": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "fontSize": 11, "fontFamily": "Segoe UI" }],
+        "selection": [{ "selectAllCheckboxEnabled": false }],
+        "background": [{ "color": { "solid": { "color": "#1E3A5F" } }, "transparency": 0 }]
+      }
+    },
+    "matrix": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#1E3A5F" } }, "fontSize": 10 }],
+        "rowHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#162843" } }, "fontSize": 10 }],
+        "values": [{ "fontColor": { "solid": { "color": "#CBD5E1" } }, "fontSize": 10 }]
+      }
+    }
+  }
+}
